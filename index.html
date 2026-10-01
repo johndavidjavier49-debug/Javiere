@@ -6,33 +6,25 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
 ```
-<meta name="description"
-      content="S M Jobs - JD Academic Student Portfolio">
-
+<meta name="description" content="S M Jobs - JD Academic Student Portfolio">
 <meta name="author" content="John David Javier">
 
 <title>JD Portfolio | Academic Portfolio</title>
 
-<link rel="stylesheet" href="./style.css">
+<link rel="stylesheet" href="style.css">
 ```
 
 </head>
 
 <body>
 
-<!-- ================= HEADER ================= -->
-
 <header class="header">
+    <a href="#home" class="logo">
+        JD<span>Portfolio</span>
+    </a>
 
 ```
-<a href="#home" class="logo">
-    JD<span>Portfolio</span>
-</a>
-
-<button
-    class="menu-btn"
-    id="menuBtn"
-    aria-label="Open navigation menu">
+<button class="menu-btn" id="menuBtn" aria-label="Open navigation menu">
     ☰
 </button>
 
@@ -48,8 +40,6 @@
 ```
 
 </header>
-
-<!-- ================= MAIN ================= -->
 
 <main>
 
@@ -75,7 +65,6 @@
         </p>
 
         <div class="hero-buttons">
-
             <a class="btn primary" href="#about">
                 About Me
             </a>
@@ -83,22 +72,17 @@
             <a class="btn secondary" href="#work">
                 View My Work
             </a>
-
         </div>
 
     </div>
 
-
-    <!-- PROFILE -->
     <div class="profile-container">
-
         <div class="profile-glow"></div>
 
         <img
             id="heroProfile"
-            src="./images/profile.svg"
+            src="images/profile.jpg"
             alt="John David Javier Profile Photo">
-
     </div>
 
 </section>
@@ -108,27 +92,21 @@
 <section class="section" id="about">
 
     <div class="section-title">
-
         <p>GET TO KNOW ME</p>
 
         <h2>
             About <span>Me</span>
         </h2>
-
     </div>
-
 
     <div class="about-box">
 
         <div class="about-image">
-
             <img
                 id="aboutProfile"
-                src="./images/profile.svg"
+                src="images/profile.jpg"
                 alt="John David Javier">
-
         </div>
-
 
         <div class="about-text">
 
@@ -151,7 +129,6 @@
                 requirements, and create useful projects
                 through consistent learning and practice.
             </p>
-
 
             <div class="info-grid">
 
@@ -184,7 +161,7 @@
 </section>
 
 
-<!-- ================= ACADEMIC WORK ================= -->
+<!-- ACADEMIC WORK -->
 <section class="section dark-section" id="work">
 
     <div class="section-title">
@@ -197,24 +174,172 @@
 
         <p class="public-note">
             Browse my academic work below.
-            Files and images that I publish are available
-            for viewing and downloading.
+            Visitors can view and download published files.
         </p>
 
     </div>
 
 
-    
-    -->
+    <!-- QUIZ -->
+    <div class="category" id="quiz">
 
-    <div id="categories"></div>
+        <div class="category-header">
+            <h3>Quiz</h3>
+            <span>Academic Files</span>
+        </div>
+
+        <div class="file-grid">
+
+            <div class="file-card">
+                <div class="file-icon">📄</div>
+
+                <h4>Quiz 1</h4>
+
+                <p>My Quiz 1</p>
+
+                <a
+                    class="download-btn"
+                    href="files/quiz/quiz-1.pdf"
+                    target="_blank"
+                    download>
+                    View / Download
+                </a>
+            </div>
+
+        </div>
+
+    </div>
+
+
+    <!-- LONG QUIZ -->
+    <div class="category" id="longquiz">
+
+        <div class="category-header">
+            <h3>Long Quiz</h3>
+            <span>Academic Files</span>
+        </div>
+
+        <div class="file-grid">
+
+            <div class="file-card">
+                <div class="file-icon">📄</div>
+
+                <h4>Long Quiz 1</h4>
+
+                <p>My Long Quiz 1</p>
+
+                <a
+                    class="download-btn"
+                    href="files/longquiz/long-quiz-1.pdf"
+                    target="_blank"
+                    download>
+                    View / Download
+                </a>
+            </div>
+
+        </div>
+
+    </div>
+
+
+    <!-- EXAMINATION -->
+    <div class="category" id="examination">
+
+        <div class="category-header">
+            <h3>Examination</h3>
+            <span>Academic Files</span>
+        </div>
+
+        <div class="file-grid">
+
+            <div class="file-card">
+                <div class="file-icon">📝</div>
+
+                <h4>Examination 1</h4>
+
+                <p>My Examination</p>
+
+                <a
+                    class="download-btn"
+                    href="files/examination/examination-1.pdf"
+                    target="_blank"
+                    download>
+                    View / Download
+                </a>
+            </div>
+
+        </div>
+
+    </div>
+
+
+    <!-- ACTIVITY -->
+    <div class="category" id="activity">
+
+        <div class="category-header">
+            <h3>Activity</h3>
+            <span>Academic Files</span>
+        </div>
+
+        <div class="file-grid">
+
+            <div class="file-card">
+                <div class="file-icon">📁</div>
+
+                <h4>Activity 1</h4>
+
+                <p>My Activity</p>
+
+                <a
+                    class="download-btn"
+                    href="files/activity/activity-1.pdf"
+                    target="_blank"
+                    download>
+                    View / Download
+                </a>
+            </div>
+
+        </div>
+
+    </div>
+
+
+    <!-- PROJECT -->
+    <div class="category" id="project">
+
+        <div class="category-header">
+            <h3>Project</h3>
+            <span>Academic Files</span>
+        </div>
+
+        <div class="file-grid">
+
+            <div class="file-card">
+                <div class="file-icon">💻</div>
+
+                <h4>Project 1</h4>
+
+                <p>My Academic Project</p>
+
+                <a
+                    class="download-btn"
+                    href="files/project/project-1.pdf"
+                    target="_blank"
+                    download>
+                    View / Download
+                </a>
+            </div>
+
+        </div>
+
+    </div>
 
 </section>
 ```
 
 </main>
 
-<!-- ================= FOOTER ================= -->
+<!-- FOOTER -->
 
 <footer>
 
@@ -223,25 +348,18 @@
     JD <span>Portfolio</span>
 </div>
 
-<p>
-    Academic Student Portfolio
-</p>
+<p>Academic Student Portfolio</p>
 
-<p>
-    Created by John David Javier
-</p>
+<p>Created by John David Javier</p>
 
 <p class="copyright">
-    © 2026 John David Javier.
-    All Rights Reserved.
+    © 2026 John David Javier. All Rights Reserved.
 </p>
 ```
 
 </footer>
 
-<!-- JAVASCRIPT -->
-
-<script src="./script.js"></script>
+<script src="script.js"></script>
 
 </body>
 </html>
