@@ -18,26 +18,19 @@ if (menuBtn && nav) {
 // then add one line per file.
 // ===============================
 const portfolioFiles = {
+    const portfolioFiles = {
     quiz: [
-        // { name: "Quiz 1", file: "files/quiz/quiz1.pdf" },
+        { name: "Quiz 1", file: "Quiz.png" },
+        { name: "Quiz 2", file: "files/quiz/quiz2.png" },
     ],
-    longquiz: [
-        // { name: "Long Quiz 1", file: "files/longquiz/longquiz1.pdf" },
-    ],
-    midterms: [
-        // { name: "Midterm Exam", file: "files/midterms/midterm.pdf" },
-    ],
-    finals: [
-        // { name: "Final Exam", file: "files/finals/final.pdf" },
-    ],
+    longquiz: [],
+    midterms: [],
+    finals: [],
     activity: [
-        // { name: "Activity 1", file: "files/activity/activity1.jpg" },
+        { name: "Activity 1", file: "files/activity/activity1.png" },
     ],
-    project: [
-        // { name: "My Project", file: "files/project/project.docx" },
-    ]
+    project: []
 };
-
 // ===============================
 // RENDER FILES (view + download only)
 // ===============================
